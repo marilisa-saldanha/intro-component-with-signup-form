@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-using-html-css-flexbox-and-js-Zqv76_2Pmt)
+- [Live Site URL](https://marilisa-saldanha.github.io/intro-component-with-signup-form/)
 
 ## My process
 
