@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./src/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="content">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+
+    <div class="contentForm">
+      <div class="miniContent">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+      </div>
+
+      <form id="form">
+
+        <div class="formData">
+          <div class="formInputAndIconError">
+            <input type="text" class="inputs required" name="firstName" id="firstName" placeholder="First Name" oninput="firstNameValidate()">
+            <div class="iconError">
+              <img src="./images/icon-error.svg" alt="">
+            </div>
+          </div>
+          <small class="infoError">First Name cannot be empty</small>
+        </div>
+        
+        <div class="formData">
+          <div class="formInputAndIconError">
+            <input type="text" class="inputs required" name="lastName" id="lastName" placeholder="Last Name" oninput="lastNameValidate()">
+            <div class="iconError">
+              <img src="./images/icon-error.svg" alt="">
+            </div>
+          </div>
+          <small class="infoError">Last Name cannot be empty</small>
+        </div>
+        
+        <div class="formData">
+          <div class="formInputAndIconError">
+            <input type="email" class="inputs required" name="email" id="email" placeholder="Email Address" oninput="emailValidate()">
+            <div class="iconError">
+              <img src="./images/icon-error.svg" alt="">
+            </div>
+          </div>
+          <small class="infoError">Looks like this is not an email</small>
+        </div>
+
+        <div class="formData">
+          <div class="formInputAndIconError">
+            <input type="password" class="inputs required" name="password" id="password" placeholder="Password" oninput="passwordValidate()">
+            <div class="iconError">
+              <img src="./images/icon-error.svg" alt="">
+            </div>
+          </div>
+          <small class="infoError">Password cannot be empty</small>
+        </div>
+
+        <button type="submit" class="submit" id="btn" aria-label="button-submit" role="button">
+          Claim your free trial
+        </button>
+
+        <p>
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/marilisa-saldanha" target="_blank">Marilisa Saldanha</a>.
+    </p>
+  </footer>
+</body>
+</html>
